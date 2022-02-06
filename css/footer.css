@@ -1,0 +1,131 @@
+.footer {
+  border: 2px solid red;
+  min-height: 300px;
+  text-align: center;
+  background: #690102;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer > a {
+  padding: 30px 60px;
+  display: inline-block;
+  font-family: Roboto Condensed, Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  margin: 83px 0;
+  color: var(--text-color);
+}
+
+.footer > a:hover {
+  background: #770302;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+
+}
+
+.footer ul li a {
+  font-family: Roboto Condensed, Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--text-color);
+}
+.footer ul li a:hover {
+  color: var(--red-color);
+}
+
+.footer ul li::after {
+  content: "|";
+  margin: 0 10px;
+  font-size: 24px;
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.footer ul li:last-child:after {
+  content: "";
+}
+
+@media (max-width: 1024px) {
+  .footer > a {
+    padding: 24px 48px;
+    display: inline-block;
+    font-family: Roboto Condensed, Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    margin: 67px 0;
+    color: var(--text-color);
+  }
+
+  .footer ul li a {
+    font-family: Roboto Condensed, Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--text-color);
+  }
+}
+
+
+@media (max-width: 425px) {
+    .footer > a {
+      padding: 20px 40px;
+      display: inline-block;
+      font-family: Roboto Condensed, Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: left;
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid #ffffff;
+      box-sizing: border-box;
+      margin: 53px 0;
+      color: var(--text-color);
+    }
+  
+    .footer ul li a {
+      font-family: Roboto Condensed, Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: var(--text-color);
+    }
+  }

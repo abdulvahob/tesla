@@ -1,0 +1,156 @@
+.Specifications {
+  margin: 100px auto 105px auto;
+  min-height: 195px;
+  display: flex;
+  max-height: 100vh;
+  align-items: center;
+}
+
+.Specifications .container {
+  width: 1113px;
+  /* padding: 20px; */
+  margin: 0 auto;
+  height: 100%;
+
+}
+
+.Specifications .container .row {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.Specifications .container .row .col{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  flex-direction: column;
+  margin: 30px;
+
+}
+.Specifications .container .row p {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Specifications .container .row h1 {
+  font-family: Roboto;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 113px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Specifications .container .row span {
+  font-family: Roboto Condensed , Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  display: inline-block;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+
+.Specifications .container .row a {
+  font-family: Roboto Condensed, Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #B70021;
+
+}
+
+@media(max-width:768px){
+  .Specifications .container .row {
+    justify-content: space-around;
+    min-height: 195px;
+
+  }
+}
+
+@media(max-width:445px){
+  .Specifications .container .row {
+    justify-content: space-around;
+    margin: 0;
+    
+  }
+  .Specifications {
+    /* margin-bottom: 30px; */
+    margin: 70px auto 71px auto;
+    min-height: 195px;
+    display: flex;
+    align-items: center;
+  }
+
+  .Specifications .container .row p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .Specifications .container .row h1 {
+    font-size: 87px;
+    font-weight: 400;
+  }
+  
+  .Specifications .container .row span {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  
+  .Specifications .container .row a {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+}
+
+
+@media(max-width:300px){
+  .Specifications .container .row {
+    justify-content: space-around;
+    margin: 0;
+    
+  }
+  .Specifications {
+    /* margin-bottom: 30px; */
+    margin: 70px auto 71px auto;
+    min-height: 195px;
+    display: flex;
+    align-items: center;
+  }
+
+  .Specifications .container .row p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .Specifications .container .row h1 {
+    font-size: 79px;
+    font-weight: 400;
+  }
+  
+  .Specifications .container .row span {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  
+  .Specifications .container .row a {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+}
